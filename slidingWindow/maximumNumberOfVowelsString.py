@@ -3,11 +3,6 @@ class Solution(object):
         somaJanela = 0
         maxVow = 0
         lst = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-
-        def eVogal(a):
-            if a in lst:
-                return True
-            return False
         
         for i in range(k):
             if s[i] in lst:
