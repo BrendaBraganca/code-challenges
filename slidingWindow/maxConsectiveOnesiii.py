@@ -6,7 +6,7 @@ class Solution(object):
 
         for end in range(len(nums)):
             if nums[end] == 0:
-                zero_acc =+1 
+                zero_acc +=1 
         
             while zero_acc > k:
                 if nums[start] == 0:
